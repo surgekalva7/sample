@@ -1,0 +1,11 @@
+h1{
+  font: Arial;
+  color: Blue;
+}
+ul{
+  font-size: 20px;
+  border 2px solid black;
+}
+li{
+  font-size: 15px;
+}
