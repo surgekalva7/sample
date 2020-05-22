@@ -1,32 +1,28 @@
 h1 {
-  color:blue;
-  text-align:center
-}
-th{
-  color:red;
-  text-align:center;
-  background-color: cyan;
-  border: 2px solid black;
-}
-td{
+  color: blue;
+  text-align: center; }
+
+tr th {
+  color: red;
+  text-align: center;
+  background-color: yellow;
+  border: 2px solid black; }
+
+td {
   border: 2px solid black;
   background-color: lightgray;
-  text-align:center
-}
-table{
+  text-align: center; }
+
+table {
   border: 2px solid black;
   background-color: lightgray;
-  border-collapse: collapse;
-}
+  border-collapse: collapse; }
 
-@media (min-width: 1000px){
-  h1::before{
-    content: "Best NBA players of the 2019-2020 Season";
-  }
-}
+@media (min-width: 1000px) {
+  h1::before {
+    content: "Best NBA players of the 2019-2020 Season"; } }
+@media (max-width: 999px) {
+  h1::before {
+    content: "Current Best NBA players"; } }
 
-@media (max-width: 999px){
-  h1::before{
-    content: "Current Best NBA players";
-  }
-}
+/*# sourceMappingURL=homestyle.css.map */
