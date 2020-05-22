@@ -1,9 +1,11 @@
 #player{
   background-color: orange;
 }
+.name{
+  color: red;
+}
 h1{
   font: Arial;
-  color: Blue;
 }
 ul{
   font-size: 20px;
@@ -11,4 +13,5 @@ ul{
 }
 li{
   font-size: 15px;
+  color: blue;
 }
